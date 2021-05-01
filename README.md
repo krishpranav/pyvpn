@@ -11,7 +11,7 @@ cd pyvpn
 sudo chmod +x *
 python3 setup.py install
 ```
-
+```
 Features
 --------
 
@@ -21,8 +21,9 @@ Features
 - TCP stack
 - TCP/UDP tunnel
 - DNS cache
+```
 
-
+```
 Examples
 --------
 
@@ -41,3 +42,4 @@ Examples
     Redirect all DNS requests to 8.8.8.8.
 
     $ pyvpn -ur tunnel://8.8.8.8:53?{53}
+```
